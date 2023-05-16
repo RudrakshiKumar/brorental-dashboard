@@ -1,7 +1,14 @@
 import "./App.css";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
-  return <div>Brorental Dashboard</div>;
+  return (
+    <>
+      <div style={{width: "100vw"}}>
+        <Dashboard />
+      </div>
+    </>
+  )
 }
 
 export default App;
