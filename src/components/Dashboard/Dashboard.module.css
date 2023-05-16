@@ -1,0 +1,11 @@
+:root {
+    --Primary-colour: #59CE8F;
+    --Hover-colour: #36B671;
+    --background-color: #D6FBE6;
+}
+
+.container {
+    width: 95%;
+    padding: 20px;
+    background-color: var(--background-color)
+}

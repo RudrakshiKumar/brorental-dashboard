@@ -1,0 +1,30 @@
+:root {
+    --Primary-colour: #59CE8F;
+    --Hover-colour: #36B671;
+    --background-color: #D6FBE6;
+    --border-color: #d3d3d3;
+}
+
+.container {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.container .booking{
+    width: 47%;
+    padding: 10px;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container .repairing{
+    width: 47%;
+    padding: 10px;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    background-color: white;
+}

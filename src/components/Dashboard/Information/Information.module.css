@@ -1,0 +1,12 @@
+:root {
+    --Primary-colour: #59CE8F;
+    --Hover-colour: #36B671;
+    --background-color: #D6FBE6;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
