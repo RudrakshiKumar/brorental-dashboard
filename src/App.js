@@ -1,13 +1,15 @@
 import Layout from "./components/Layout";
 import "./App.css";
-import "antd/dist/reset.css";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   return (
-    <div>
-      <Layout />
-    </div>
-  );
+    <>
+      <div style={{width: "100vw"}}>
+        <Dashboard />
+      </div>
+    </>
+  )
 }
 
 export default App;

@@ -1,0 +1,23 @@
+:root {
+    --Primary-colour: #59CE8F;
+    --Hover-colour: #36B671;
+    --background-color: #D6FBE6;
+}
+
+.rating{
+    border: 0px;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rating p{
+    font-size: 25px;
+    color: rgb(141, 139, 139);
+    font-weight: 500;
+}
