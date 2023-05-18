@@ -5,7 +5,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 function App() {
   return (
     <>
-      <div style={{width: "100vw"}}>
+      <div >
         <Dashboard />
       </div>
     </>

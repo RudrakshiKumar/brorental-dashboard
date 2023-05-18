@@ -49,4 +49,9 @@
 .ant-row-rtl #components-layout-demo-top-side .logo {
   float: right;
   margin: 16px 0 16px 24px;
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 }

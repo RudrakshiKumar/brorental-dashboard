@@ -1,0 +1,44 @@
+:root {
+    --Primary-colour: #59CE8F;
+    --Hover-colour: #36B671;
+    --background-color: #D6FBE6;
+}
+
+.container {
+    width: 100%;
+}
+
+.container .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.container .options {
+    width: 58%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container .options .inside_option {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .options .inside_option p:hover {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.container .options .inside_option p:nth-child(2) {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    padding: 0px 10%;
+}

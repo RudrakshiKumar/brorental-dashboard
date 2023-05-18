@@ -4,10 +4,11 @@
     --background-color: #D6FBE6;
 }
 
-.container{
+.container {
     width: 100%;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
+    height: 100%;
+    padding: 20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: white;
 }

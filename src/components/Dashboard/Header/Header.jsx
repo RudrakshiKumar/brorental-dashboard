@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Header.module.css';
 import Booking from './booking/Booking';
-import Repairing from './Repairing';
+import Repairing from './repairing/Repairing';
 
 
 function Header() {
