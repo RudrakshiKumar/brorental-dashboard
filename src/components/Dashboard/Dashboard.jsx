@@ -20,7 +20,7 @@ function Dashboard() {
                 </div>
 
                 <div>
-                    {/* <DisplayData /> */}
+                    <DisplayData />
                 </div>
 
                 <div>

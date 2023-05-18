@@ -1,0 +1,29 @@
+:root {
+    --Primary-colour: #59CE8F;
+    --Hover-colour: #36B671;
+    --background-color: #D6FBE6;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container p{
+    color: rgb(161, 160, 160);
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.container p span{
+    color: crimson;
+    font-weight: 600;
+}
