@@ -5,11 +5,13 @@ import Dashboard from "./components/Dashboard/Dashboard";
 function App() {
   return (
     <>
-      <div >
-        <Dashboard />
+      <div>
+      
+        <Layout />
+        {/* <Dashboard /> */}
       </div>
     </>
-  )
+  );
 }
 
 export default App;
